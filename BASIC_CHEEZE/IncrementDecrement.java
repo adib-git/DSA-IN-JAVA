@@ -1,0 +1,21 @@
+package Basic_Cheeze;
+
+public class IncrementDecrement {
+    static void main() {
+        int x = 10;
+        System.out.println(x++);
+        System.out.println(x);
+
+        System.out.println(++x);
+        System.out.println(x);
+
+        System.out.println(x--);
+        System.out.println(x);
+
+        System.out.println(--x);
+        System.out.println(x);
+
+        int y = x++;
+        System.out.println(x+" "+y);
+    }
+}
